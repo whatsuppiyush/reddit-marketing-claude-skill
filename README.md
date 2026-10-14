@@ -117,6 +117,8 @@ rate-limits aggressively, so it deliberately fetches a handful of subs deeply ra
 shallowly, and uses a descriptive User-Agent. The public JSON endpoints are for research; posting
 through your account remains your own manual step, subject to each subreddit's rules.
 
+The skill itself needs no key and no payment. If Reddit's public JSON keeps returning 403 or 429 from your network, you can fall back to [a hosted Reddit MCP server](https://chatterapi.com/mcp-server) that serves the same reads. It uses its own API key, and it's optional: the skill works fine without it.
+
 Built by [Piyush](https://github.com/whatsuppiyush) · Reddit marketing that doesn't get you
 banned, powered by [Grow With Reddit](https://growwithreddit.com/?ref=claude-skill).
 
